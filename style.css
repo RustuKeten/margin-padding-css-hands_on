@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family:  "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  font-size: 1.5rem;
+  display: inline-block;
+  display: flex;
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 1rem 0.5rem;
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: rgb(218, 209, 209);
+  color: black;
+  padding: 5px 30px;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
